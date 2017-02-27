@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB43ABB1E64309F0033EB62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43ABA1E64309F0033EB62 /* main.m */; };
+		BDB43ABE1E64309F0033EB62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43ABD1E64309F0033EB62 /* AppDelegate.m */; };
+		BDB43AC11E64309F0033EB62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43AC01E64309F0033EB62 /* ViewController.m */; };
+		BDB43AC41E64309F0033EB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB43AC21E64309F0033EB62 /* Main.storyboard */; };
+		BDB43AC61E64309F0033EB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB43AC51E64309F0033EB62 /* Assets.xcassets */; };
+		BDB43AC91E64309F0033EB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB43AC71E64309F0033EB62 /* LaunchScreen.storyboard */; };
+		BDB43AD41E64309F0033EB62 /* HTTrafficMonitoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43AD31E64309F0033EB62 /* HTTrafficMonitoringTests.m */; };
+		BDB43ADF1E64309F0033EB62 /* HTTrafficMonitoringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43ADE1E64309F0033EB62 /* HTTrafficMonitoringUITests.m */; };
+		BDB43B171E6433550033EB62 /* HTTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB43B161E6433550033EB62 /* HTTraffic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB43AD01E64309F0033EB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB43AAE1E64309F0033EB62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB43AB51E64309F0033EB62;
+			remoteInfo = HTTrafficMonitoring;
+		};
+		BDB43ADB1E64309F0033EB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB43AAE1E64309F0033EB62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB43AB51E64309F0033EB62;
+			remoteInfo = HTTrafficMonitoring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB43AB61E64309F0033EB62 /* HTTrafficMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTrafficMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB43ABA1E64309F0033EB62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB43ABC1E64309F0033EB62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDB43ABD1E64309F0033EB62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDB43ABF1E64309F0033EB62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDB43AC01E64309F0033EB62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDB43AC31E64309F0033EB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB43AC51E64309F0033EB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB43AC81E64309F0033EB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB43ACA1E64309F0033EB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB43ACF1E64309F0033EB62 /* HTTrafficMonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTrafficMonitoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB43AD31E64309F0033EB62 /* HTTrafficMonitoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTrafficMonitoringTests.m; sourceTree = "<group>"; };
+		BDB43AD51E64309F0033EB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB43ADA1E64309F0033EB62 /* HTTrafficMonitoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTrafficMonitoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB43ADE1E64309F0033EB62 /* HTTrafficMonitoringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTrafficMonitoringUITests.m; sourceTree = "<group>"; };
+		BDB43AE01E64309F0033EB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB43B151E6433550033EB62 /* HTTraffic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTraffic.h; sourceTree = "<group>"; };
+		BDB43B161E6433550033EB62 /* HTTraffic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTraffic.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB43AB31E64309F0033EB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43ACC1E64309F0033EB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43AD71E64309F0033EB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB43AAD1E64309F0033EB62 = {
+			isa = PBXGroup;
+			children = (
+				BDB43AB81E64309F0033EB62 /* HTTrafficMonitoring */,
+				BDB43AD21E64309F0033EB62 /* HTTrafficMonitoringTests */,
+				BDB43ADD1E64309F0033EB62 /* HTTrafficMonitoringUITests */,
+				BDB43AB71E64309F0033EB62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB43AB71E64309F0033EB62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB43AB61E64309F0033EB62 /* HTTrafficMonitoring.app */,
+				BDB43ACF1E64309F0033EB62 /* HTTrafficMonitoringTests.xctest */,
+				BDB43ADA1E64309F0033EB62 /* HTTrafficMonitoringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB43AB81E64309F0033EB62 /* HTTrafficMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				BDB43ABC1E64309F0033EB62 /* AppDelegate.h */,
+				BDB43ABD1E64309F0033EB62 /* AppDelegate.m */,
+				BDB43ABF1E64309F0033EB62 /* ViewController.h */,
+				BDB43AC01E64309F0033EB62 /* ViewController.m */,
+				BDB43B151E6433550033EB62 /* HTTraffic.h */,
+				BDB43B161E6433550033EB62 /* HTTraffic.m */,
+				BDB43AC21E64309F0033EB62 /* Main.storyboard */,
+				BDB43AC51E64309F0033EB62 /* Assets.xcassets */,
+				BDB43AC71E64309F0033EB62 /* LaunchScreen.storyboard */,
+				BDB43ACA1E64309F0033EB62 /* Info.plist */,
+				BDB43AB91E64309F0033EB62 /* Supporting Files */,
+			);
+			path = HTTrafficMonitoring;
+			sourceTree = "<group>";
+		};
+		BDB43AB91E64309F0033EB62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB43ABA1E64309F0033EB62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB43AD21E64309F0033EB62 /* HTTrafficMonitoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB43AD31E64309F0033EB62 /* HTTrafficMonitoringTests.m */,
+				BDB43AD51E64309F0033EB62 /* Info.plist */,
+			);
+			path = HTTrafficMonitoringTests;
+			sourceTree = "<group>";
+		};
+		BDB43ADD1E64309F0033EB62 /* HTTrafficMonitoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB43ADE1E64309F0033EB62 /* HTTrafficMonitoringUITests.m */,
+				BDB43AE01E64309F0033EB62 /* Info.plist */,
+			);
+			path = HTTrafficMonitoringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB43AB51E64309F0033EB62 /* HTTrafficMonitoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB43AE31E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoring" */;
+			buildPhases = (
+				BDB43AB21E64309F0033EB62 /* Sources */,
+				BDB43AB31E64309F0033EB62 /* Frameworks */,
+				BDB43AB41E64309F0033EB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTrafficMonitoring;
+			productName = HTTrafficMonitoring;
+			productReference = BDB43AB61E64309F0033EB62 /* HTTrafficMonitoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB43ACE1E64309F0033EB62 /* HTTrafficMonitoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB43AE61E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoringTests" */;
+			buildPhases = (
+				BDB43ACB1E64309F0033EB62 /* Sources */,
+				BDB43ACC1E64309F0033EB62 /* Frameworks */,
+				BDB43ACD1E64309F0033EB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB43AD11E64309F0033EB62 /* PBXTargetDependency */,
+			);
+			name = HTTrafficMonitoringTests;
+			productName = HTTrafficMonitoringTests;
+			productReference = BDB43ACF1E64309F0033EB62 /* HTTrafficMonitoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB43AD91E64309F0033EB62 /* HTTrafficMonitoringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB43AE91E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoringUITests" */;
+			buildPhases = (
+				BDB43AD61E64309F0033EB62 /* Sources */,
+				BDB43AD71E64309F0033EB62 /* Frameworks */,
+				BDB43AD81E64309F0033EB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB43ADC1E64309F0033EB62 /* PBXTargetDependency */,
+			);
+			name = HTTrafficMonitoringUITests;
+			productName = HTTrafficMonitoringUITests;
+			productReference = BDB43ADA1E64309F0033EB62 /* HTTrafficMonitoringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB43AAE1E64309F0033EB62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BDB43AB51E64309F0033EB62 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BDB43ACE1E64309F0033EB62 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDB43AB51E64309F0033EB62;
+					};
+					BDB43AD91E64309F0033EB62 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDB43AB51E64309F0033EB62;
+					};
+				};
+			};
+			buildConfigurationList = BDB43AB11E64309F0033EB62 /* Build configuration list for PBXProject "HTTrafficMonitoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB43AAD1E64309F0033EB62;
+			productRefGroup = BDB43AB71E64309F0033EB62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB43AB51E64309F0033EB62 /* HTTrafficMonitoring */,
+				BDB43ACE1E64309F0033EB62 /* HTTrafficMonitoringTests */,
+				BDB43AD91E64309F0033EB62 /* HTTrafficMonitoringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB43AB41E64309F0033EB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB43AC91E64309F0033EB62 /* LaunchScreen.storyboard in Resources */,
+				BDB43AC61E64309F0033EB62 /* Assets.xcassets in Resources */,
+				BDB43AC41E64309F0033EB62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43ACD1E64309F0033EB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43AD81E64309F0033EB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB43AB21E64309F0033EB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB43AC11E64309F0033EB62 /* ViewController.m in Sources */,
+				BDB43ABE1E64309F0033EB62 /* AppDelegate.m in Sources */,
+				BDB43ABB1E64309F0033EB62 /* main.m in Sources */,
+				BDB43B171E6433550033EB62 /* HTTraffic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43ACB1E64309F0033EB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB43AD41E64309F0033EB62 /* HTTrafficMonitoringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB43AD61E64309F0033EB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB43ADF1E64309F0033EB62 /* HTTrafficMonitoringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB43AD11E64309F0033EB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB43AB51E64309F0033EB62 /* HTTrafficMonitoring */;
+			targetProxy = BDB43AD01E64309F0033EB62 /* PBXContainerItemProxy */;
+		};
+		BDB43ADC1E64309F0033EB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB43AB51E64309F0033EB62 /* HTTrafficMonitoring */;
+			targetProxy = BDB43ADB1E64309F0033EB62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB43AC21E64309F0033EB62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB43AC31E64309F0033EB62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB43AC71E64309F0033EB62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB43AC81E64309F0033EB62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB43AE11E64309F0033EB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDB43AE21E64309F0033EB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB43AE41E64309F0033EB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTTrafficMonitoring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDB43AE51E64309F0033EB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTTrafficMonitoring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDB43AE71E64309F0033EB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTTrafficMonitoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTrafficMonitoring.app/HTTrafficMonitoring";
+			};
+			name = Debug;
+		};
+		BDB43AE81E64309F0033EB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTTrafficMonitoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTrafficMonitoring.app/HTTrafficMonitoring";
+			};
+			name = Release;
+		};
+		BDB43AEA1E64309F0033EB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTTrafficMonitoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTTrafficMonitoring;
+			};
+			name = Debug;
+		};
+		BDB43AEB1E64309F0033EB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTTrafficMonitoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTTrafficMonitoringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTTrafficMonitoring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB43AB11E64309F0033EB62 /* Build configuration list for PBXProject "HTTrafficMonitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB43AE11E64309F0033EB62 /* Debug */,
+				BDB43AE21E64309F0033EB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB43AE31E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB43AE41E64309F0033EB62 /* Debug */,
+				BDB43AE51E64309F0033EB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDB43AE61E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB43AE71E64309F0033EB62 /* Debug */,
+				BDB43AE81E64309F0033EB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDB43AE91E64309F0033EB62 /* Build configuration list for PBXNativeTarget "HTTrafficMonitoringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB43AEA1E64309F0033EB62 /* Debug */,
+				BDB43AEB1E64309F0033EB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB43AAE1E64309F0033EB62 /* Project object */;
+}
